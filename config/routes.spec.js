@@ -5,7 +5,7 @@ const server = require("../api/server.js");
 const db = require("../data/dbConfig.js");
 
 describe("Server Test", () => {
-  it("db enviornemt test || set to testing", () => {
+  it("db environment test || set to testing", () => {
     expect(process.env.DB_ENV).toBe("testing");
   });
 
